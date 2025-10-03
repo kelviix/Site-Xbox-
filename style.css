@@ -1,0 +1,196 @@
+li {
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+    background-color: rgb(0, 0, 0); /* Cor de fundo da página */
+}
+
+.azul {
+   
+    height: 636px; /* Altura fixa */
+   /* border: 6px solid #078C03; /* Borda verde */
+    border-radius: 20px; /* Bordas arredondadas */
+   /* background-color: #078C03; /* Fundo verde */
+    border-bottom-left-radius: 90px; /* Arredonda só embaixo */
+    border-bottom-right-radius: 90px;
+}
+
+.bg{
+    
+  
+
+
+    border-radius: 20px;
+    padding: 8px;
+    background: url("./imagens/fundo-inital.jpg ")repeat-x; /*repede sempre na horizoltal */
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    animation: mover 20s linear infinite;
+    border-bottom-left-radius: 90px; /* Arredonda só embaixo */
+    border-bottom-right-radius: 90px;
+    
+    
+}
+
+@keyframes mover {
+    from{
+        background-position:  0 0; /*inicio*/
+    }
+    to{
+        background-position: -1000px 0; /* move para esquerda a imagm*/
+    }
+}
+
+
+
+.navg {
+    border-radius: 20px;
+    border: 4px solid rgb(17, 190, 60);
+    align-items: center; /* Alinha verticalmente */
+    background-color: rgb(17, 190, 60); /* Fundo verde */
+    font-size: 20px; /* Tamanho do texto */
+    color: rgb(0, 0, 0); /* Cor da fonte */
+    display: flex; /* Layout flexbox */
+    justify-content: space-between; /* Espaço entre os itens */
+    gap: 20px; /* Espaço entre elementos */
+}
+
+img {
+    margin: 20px; /* Espaço em volta da imagem */
+    width: 40px; /* Largura fixa */
+    height: 40px; /* Altura fixa */
+}
+
+ul {
+    text-decoration: none; /* Remove sublinhado */
+    color: white; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    display: flex; /* Layout em linha */
+    justify-content: space-between; /* Espaço entre itens */
+    gap: 40px; /* Distância entre links */
+}
+
+ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+.tema {
+    text-align: justify; /* Justifica o texto */
+    align-items: center; /* Alinha verticalmente */
+    font-size: 20px; /* Texto maior */
+    margin: 20px; /* Espaçamento externo */
+    color: white; /* Texto branco */
+    display: flex; /* Layout em linha */
+    justify-content: space-around; /* Espaço ao redor */
+} 
+
+.lateral {
+    border-radius: 20px; /* Bordas arredondadas */
+    width: 550px; /* Largura fixa */
+    height: 450px; /* Altura fixa */
+}
+
+.Login {
+    border: 4px solid rgb(17, 190, 60); /* Borda cinza */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: white; /* Texto branco */
+    font-size: 20px; /* Fonte maior */
+    background-color: rgb(17, 190, 60); /* Fundo cinza escuro */
+}
+
+.email { 
+    background-color: #43a73c;
+    height: 60px; /* Altura */
+    color: rgb(66, 90, 91); /* Cor do texto */
+    border: 4px solid transparent; /* Borda invisível */
+    border-radius: 20px; /* Bordas arredondadas */
+    position: absolute; /* Posição absoluta */
+    left: 570px; /* Move para direita */
+    height: 57px;
+    width: 70px;
+
+}
+
+input {
+    border-color: transparent;
+    height: 50px; /* Altura */
+    width: 400px; /* Largura */
+    border-radius: 20px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco */
+    color: black; /* Texto preto */
+}
+
+.caixas {
+    padding: 40px; /* Espaçamento interno */
+    display: flex; /* Layout flexbox */
+    justify-content: space-around; /* Espaço entre os elementos */
+}
+
+.links {
+    margin: 10px; /* Espaço externo */
+    text-decoration: none; /* Remove sublinhado */
+    text-align: center; /* Centraliza texto */
+    align-items: center; /* Alinha itens */
+    height: 120px; /* Altura */
+    width: 120px; /* Largura */
+    border: 10px solid transparent; /* Borda invisível */
+    background-color: rgb(17, 190, 60); /* Fundo branco */
+    border-radius: 30px; /* Bordas arredondadas */
+    padding: 40px; /* Espaçamento interno */
+}
+
+.links:hover {
+    transform: translateY(-8px); /* Levanta ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(53, 53, 53, 0.2); /* Sombra */
+}
+
+.nome {
+    color: #ffffff; /* Verde */
+    font-size: 18px; /* Tamanho do texto */
+    margin-top: 10px; /* Espaço acima */
+}
+
+.jogos {
+    color: white; /* Texto branco */
+    text-align: justify; /* Justifica */
+}
+
+.menu2 {
+    padding: 20px; /* Espaço interno */
+    height: 100px; /* Altura fixa */
+    background-color: #43a73c; /* Fundo verde */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+
+.tendencias{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.forzan{
+    border-radius: 25px;
+    width: 900px;
+    height: 600px;
+}
+
+.ringt {
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 100px; /* Largura */
+    height: 100px; /* Altura */
+}
